@@ -10,9 +10,10 @@ app.use(cors());
 // GET endpoint
 app.get('/', (req, res) => {
     const response = {
-        email: 'ukaohachizoba6@gmail.com', // Replace with your HNG Slack email
-        current_datetime: new Date().toISOString(), // Dynamically generated ISO 8601 timestamp
-        github_url: 'https://github.com/Ukaoha/Hng.git' // Replace with your GitHub repo URL
+        email: 'ukaohachizoba6@gmail.com', 
+                current_datetime: new Date().toISOString(),
+        github_url: 'https://github.com/Ukaoha/Hng.git' 
+        
     };
     res.status(200).json(response);
 });
