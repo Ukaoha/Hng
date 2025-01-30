@@ -29,7 +29,7 @@ This project provides a simple public API built with Express.js. The API returns
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ukaoha/Hng.git
+   git clone https://github.com/Ukaoha/hng-stage-zero
    ```
 
 2. Install dependencies:
